@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="../css/myStyle.css" />
   </head>
   <body>
-    <%- include ('../components/dark-light') %> 
+    <%- include ('../Components/dark-light') %> 
 
 
     <div
@@ -120,11 +120,11 @@
 
     <main class="d-flex flex-nowrap">
   
-      <%- include ('../components/sidebar.ejs',{currentpage:"add"}) %> 
+      <%- include ('../Components/sidebar.ejs',{currentpage:"add"}) %> 
 
       <section class="w-100">
        
-         <%- include ('../components/navbar.ejs') %>  
+         <%- include ('../Components/navbar.ejs') %>  
 
         <form action="/user/add.html" method="POST"  class="mx-0 row gx-3 gy-4 mt-3">
           <div class="col-md-6">
